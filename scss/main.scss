@@ -1,0 +1,18 @@
+// custom scss
+
+@use "custom";
+
+// import components
+@use "components/typographi";
+@use "components/mixin";
+
+// import sections
+
+@use "sections/header";
+@use "sections/hero";
+@use "sections/heroCarousel";
+@use "sections/trending";
+@use "sections/newArrivals";
+@use "sections/shopBy";
+@use "sections/reviews";
+@use "sections/footer";

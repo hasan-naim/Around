@@ -1,0 +1,31 @@
+@use "../components/typographi" as *;
+@use "../custom" as *;
+
+
+header{
+
+    .nav-item{
+
+        .nav-link:hover{
+            color: $primary !important;
+        }
+    }
+    .navbar-right{
+
+        gap: 15px;
+        .line{
+            width: 1px;
+            height: 24px;
+            background: $gray-500;
+        }
+        svg{
+            font-size: 1.3rem;
+            path{
+                color: #5c5d77;
+            }
+        }
+    }
+}
+.navbar-logo{
+    width: 153px;
+}
