@@ -1,7 +1,9 @@
 @use "../components/typographi" as *;
 @use "../custom" as *;
 
-
+*{
+    box-sizing: border-box;
+}
 header{
 
     .nav-item{

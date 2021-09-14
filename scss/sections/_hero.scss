@@ -1,0 +1,62 @@
+@use "../custom" as *;
+@use "../components/mixin" as *;
+
+
+.hero{
+    @include gradientBg;
+    min-height: 90vh;
+    
+
+
+.box{
+    border: 1px solid $gray-500;
+    width: 100%;
+    max-width: 370px;
+    border-radius: 0.75rem;
+    padding: 10px 15px ;
+    color: #d6defb;
+    cursor: pointer;
+    span{
+        font-size: 14px;
+    }
+
+    img{
+        width: 60px;
+        height: 60px;
+        border-radius: .75rem;
+    }
+    }
+
+    .col-lg-9{
+
+
+        .hero-btn{
+            width: fit-content;
+            border: none;
+            background: rgba(255, 255, 255, .08);
+            border-radius: .75rem;
+            padding: 10px 14px;
+            color: white;
+            outline: none;
+            font-weight: 500;
+            transition: all .4s;
+            &:hover{
+                background: white;
+                color: $gray-700;
+            }
+        }
+    }
+
+    .hero-img-div{
+        img{
+            width: 100%;
+            max-width: 443px;
+            margin: 0 auto;
+        }
+    }
+}
+.box.active{
+    background: $white;
+    color: #5a5b75;
+    cursor: default;
+}

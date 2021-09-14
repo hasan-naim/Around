@@ -1,0 +1,6 @@
+@use "../custom" as *;
+
+@mixin gradientBg {
+    background-image: linear-gradient(to right, $secondary, $primary);
+}
+
