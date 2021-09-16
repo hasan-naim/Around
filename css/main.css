@@ -11117,11 +11117,14 @@ textarea.form-control-lg {
   box-sizing: border-box;
 }
 
+header {
+  background: #fff;
+}
 header .nav-item .nav-link:hover {
   color: #6A9BF4 !important;
 }
 header .navbar-right {
-  gap: 15px;
+  gap: 20px;
 }
 header .navbar-right .line {
   width: 1px;
@@ -11185,6 +11188,45 @@ header .navbar-right svg path {
   background: #fff;
   color: #5a5b75;
   cursor: default;
+}
+
+.heroCarousel {
+  margin-top: -100px;
+  border-radius: 1rem;
+}
+@media (min-width: 770px) {
+  .heroCarousel {
+    margin-top: -200px;
+  }
+}
+@media (min-width: 992px) {
+  .heroCarousel {
+    margin-top: -250px;
+  }
+}
+@media (min-width: 1200px) {
+  .heroCarousel {
+    margin-top: -300px;
+  }
+}
+
+.card {
+  border-radius: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.085);
+  color: #4a4b65;
+}
+.card img {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+.card h4 {
+  line-height: 1.35;
+  font-size: calc(1.2625rem + 0.15vw);
+  font-weight: 600;
+}
+
+.shadow {
+  box-shadow: 0 0 0.625rem -0.1875rem #00000021 !important;
 }
 
 /*# sourceMappingURL=main.css.map */

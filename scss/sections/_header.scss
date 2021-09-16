@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 header{
+    background: $white;
 
     .nav-item{
 
@@ -14,7 +15,7 @@ header{
     }
     .navbar-right{
 
-        gap: 15px;
+        gap: 20px;
         .line{
             width: 1px;
             height: 24px;
