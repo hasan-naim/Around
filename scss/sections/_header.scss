@@ -3,11 +3,13 @@
 
 *{
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
 }
 header{
     background: $white;
 
     .nav-item{
+        
 
         .nav-link:hover{
             color: $primary !important;
