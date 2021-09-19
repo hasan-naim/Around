@@ -11118,6 +11118,10 @@ textarea.form-control-lg {
   font-family: "Inter", sans-serif;
 }
 
+::selection {
+  background: rgba(118, 109, 244, 0.22);
+}
+
 header {
   background: #fff;
 }
@@ -11315,6 +11319,108 @@ header .navbar-right svg path {
 .treandingPost .card-footer .d-flex .footer-right-side .cart-plus-icon {
   color: #766df4;
   font-size: 1.375rem;
+}
+
+.newArrivals {
+  padding-top: 7rem;
+  color: #4a4b65 !important;
+  overflow: hidden;
+}
+.newArrivals .row {
+  flex-wrap: nowrap;
+}
+.newArrivals .col-lg-4 {
+  border: 1px solid rgba(0, 0, 0, 0.085);
+  border-radius: 1rem;
+}
+.newArrivals .col-lg-4 .arrivals-header {
+  margin-bottom: 1.3rem;
+}
+.newArrivals .col-lg-4 .arrivals-header h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.newArrivals .col-lg-4 .arrivals-header a {
+  color: #766df4;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+.newArrivals .col-lg-4 .arrivals-header a:hover {
+  text-decoration: underline;
+}
+.newArrivals .col-lg-4 .arrivals-body .product img {
+  width: 60px;
+  height: 60px;
+}
+.newArrivals .col-lg-4 .arrivals-body .product h4 {
+  margin-bottom: 0.5rem;
+  line-height: 0.8;
+}
+.newArrivals .col-lg-4 .arrivals-body .product h4 a {
+  color: #4a4b65;
+  text-decoration: none;
+  font-size: 0.9375rem !important;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+.newArrivals .col-lg-4 .arrivals-body .product h4 a:hover {
+  color: #766df4;
+}
+.newArrivals .col-lg-4 .arrivals-body .product p {
+  font-size: 0.875rem !important;
+  margin-bottom: 0;
+  color: #737491;
+  font-weight: var(--bs-body-font-weight);
+}
+.newArrivals .col-lg-8 {
+  background: #f7f7fc;
+  border-radius: 1rem;
+  max-width: 90vw;
+  margin: 0 auto;
+}
+.newArrivals .col-lg-8 .left-side {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.newArrivals .col-lg-8 .left-side h2 {
+  font-weight: 600;
+  white-space: nowrap;
+}
+.newArrivals .col-lg-8 .left-side p {
+  max-width: 14rem;
+}
+.newArrivals .col-lg-8 .left-side .limit-offer {
+  color: #f74f78 !important;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  outline: none;
+  font-size: 0.875rem !important;
+  background: rgba(247, 79, 120, 0.08) !important;
+  margin-bottom: 2rem;
+}
+.newArrivals .col-lg-8 .left-side .countdown {
+  margin-bottom: 0.8rem;
+}
+.newArrivals .col-lg-8 .left-side .countdown > div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.newArrivals .col-lg-8 .left-side .countdown .int {
+  font-weight: 600;
+  font-size: calc(1.2625rem + 0.15vw);
+}
+.newArrivals .col-lg-8 .left-side .countdown .desc {
+  color: #9e9fb4 !important;
+  font-size: 0.75rem !important;
+}
+.newArrivals .col-lg-8 .left-side .get-now {
+  background: #5549f1 !important;
+  color: white !important;
+  padding: 0.5625rem 1.25rem;
+  border-radius: 0.75rem;
 }
 
 /*# sourceMappingURL=main.css.map */

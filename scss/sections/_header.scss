@@ -5,6 +5,10 @@
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
 }
+
+::selection{
+    background: rgba(118, 109, 244, .22);
+}
 header{
     background: $white;
 
