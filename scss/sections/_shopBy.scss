@@ -1,0 +1,37 @@
+@use "../custom" as *;
+
+.shopByBrand {
+  h2 {
+    color: #4a4b65;
+    font-weight: 600;
+  }
+
+  .div-container {
+    &-inner {
+      box-shadow: 0 0 0.625rem -0.1875rem rgb(0 0 0 / 13%) !important;
+      border-radius: 1rem;
+      border: 1px solid transparent;
+        transition: border .3s ease-in-out, box-shadow .3s ease-in-out;
+      &:hover {
+        border: 1px solid rgba(118, 109, 244, 0.35) !important;
+        box-shadow: 0.1875rem 0.1875rem 0.625rem -0.125rem rgb(0 0 0 / 9%) !important;
+      }
+      &:hover .img-color {
+        display: block !important;
+      }
+      &:hover .img-gray {
+        display: none !important;
+      }
+    }
+  }
+
+  .images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      width: 150px;
+    }
+  }
+}

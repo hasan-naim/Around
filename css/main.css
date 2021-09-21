@@ -11239,6 +11239,7 @@ header .navbar-right svg path {
 }
 .treandingPost h2 {
   color: #4a4b65;
+  font-weight: 600;
 }
 .treandingPost button.more-products {
   border: 1px solid rgba(118, 109, 244, 0.35);
@@ -11421,6 +11422,34 @@ header .navbar-right svg path {
   color: white !important;
   padding: 0.5625rem 1.25rem;
   border-radius: 0.75rem;
+}
+.shopByBrand h2 {
+  color: #4a4b65;
+  font-weight: 600;
+}
+.shopByBrand .div-container-inner {
+  box-shadow: 0 0 0.625rem -0.1875rem rgba(0, 0, 0, 0.13) !important;
+  border-radius: 1rem;
+  border: 1px solid transparent;
+  transition: border 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.shopByBrand .div-container-inner:hover {
+  border: 1px solid rgba(118, 109, 244, 0.35) !important;
+  box-shadow: 0.1875rem 0.1875rem 0.625rem -0.125rem rgba(0, 0, 0, 0.09) !important;
+}
+.shopByBrand .div-container-inner:hover .img-color {
+  display: block !important;
+}
+.shopByBrand .div-container-inner:hover .img-gray {
+  display: none !important;
+}
+.shopByBrand .images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.shopByBrand .images img {
+  width: 150px;
 }
 
 /*# sourceMappingURL=main.css.map */
