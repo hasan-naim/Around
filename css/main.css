@@ -11452,4 +11452,94 @@ header .navbar-right svg path {
   width: 150px;
 }
 
+section.review {
+  background: #f7f7fc;
+}
+section.review h2 {
+  color: #4a4b65;
+  font-weight: 600;
+}
+section.review .img-card {
+  height: 100%;
+  box-shadow: 0 0 0.625rem -0.1875rem rgba(0, 0, 0, 0.13) !important;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: space-between;
+}
+section.review .content-card {
+  height: 100% !important;
+}
+section.review .content-card .card-body {
+  padding: 1.5rem 1.5rem;
+}
+section.review .content-card .card-body .content-header {
+  margin-bottom: 0.5rem;
+}
+section.review .content-card .card-body .content-header a {
+  text-decoration: none;
+  align-items: center;
+}
+section.review .content-card .card-body .content-header a img {
+  width: 60px;
+  margin-right: 1rem;
+}
+section.review .content-card .card-body .content-header a h4 {
+  font-size: 0.9375rem !important;
+  color: #4a4b65;
+  transition: color 0.3s;
+}
+section.review .content-card .card-body .content-header a:hover h4 {
+  color: #766df4;
+}
+section.review .content-card .card-body .stars {
+  margin-bottom: 0.5rem;
+}
+section.review .content-card .card-body .stars .svg-inline--fa.fa-w-18 {
+  width: 0.8125rem;
+  margin-right: -1px;
+}
+section.review .content-card .card-body .stars .svg-inline--fa.fa-w-18 path {
+  color: #bbbbca;
+}
+section.review .content-card .card-body .stars .active path {
+  color: #ffb15c !important;
+}
+section.review .content-card .card-body p {
+  font-size: 0.875rem !important;
+  color: #737491;
+}
+section.review .content-card .hr {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+section.review .content-card .hr hr {
+  width: 80%;
+  display: block;
+}
+section.review footer .content img {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+}
+section.review footer .content .text {
+  font-size: 0.875rem !important;
+  font-weight: 500;
+}
+section.review .owl-carousel .owl-stage {
+  position: relative;
+  display: flex;
+  align-items: stretch;
+}
+
+.owl-carousel span {
+  background: #7985f5 !important;
+}
+
+.owl-dot.active span {
+  background: white !important;
+  border: 2px solid #7985f5;
+}
+
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,125 @@
+@use "../custom" as *;
+
+
+section.review {
+    background: #f7f7fc;
+  h2 {
+    color: #4a4b65;
+    font-weight: 600;
+  }
+
+  // card with image
+
+  .img-card {
+     height: 100%;
+      box-shadow: 0 0 0.625rem -0.1875rem rgb(0 0 0 / 13%) !important;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  // card with contents
+
+  .content-card{
+      height: 100% !important;
+      
+      .card-body{
+        padding: 1.5rem 1.5rem;
+
+
+        .content-header{
+            margin-bottom: .5rem;
+
+            a{
+                text-decoration: none;
+                align-items: center;
+                img{
+                    width: 60px;
+                    margin-right: 1rem;
+                }
+                h4{
+                    font-size: 0.9375rem !important;
+                    color: #4a4b65;
+                    transition: color .3s;
+                }
+
+                &:hover{
+
+                    h4{
+                        color: #766df4;
+                    }
+                }
+            }
+        }
+
+        .stars{
+            margin-bottom: .5rem;
+
+            .svg-inline--fa.fa-w-18{
+                width: .8125rem;
+                margin-right: -1px;
+                path{
+                    color: #bbbbca;
+                }
+            }
+            .active{
+                path{
+                    color: #ffb15c !important;
+                }
+            }
+        
+        }
+        p{
+            font-size: 0.875rem !important;
+            color: #737491;
+        }
+    }
+    .hr{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        hr{
+            width: 80%;
+            display: block;
+
+        }
+    }
+  }
+
+  footer {
+    .content {
+      img {
+        width: 42px;
+        height: 42px;
+        border-radius: 50%;
+      }
+      .text {
+        font-size: 0.875rem !important;
+        font-weight: 500;
+      }
+    }
+  }
+  .owl-carousel .owl-stage {
+    position: relative;
+    display: flex;
+    align-items: stretch;
+  }
+
+}
+
+
+/// code for owl carousel dots
+
+.owl-carousel span {
+   
+    background: #7985f5 !important;
+ 
+}
+.owl-dot.active span {
+
+    background: white !important;
+
+    border: 2px solid #7985f5;
+ 
+}
