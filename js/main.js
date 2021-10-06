@@ -1,7 +1,7 @@
 
 
 // code for owl carousel
-$(document).ready(function() {
+$(document).ready(function () {
     $('.owl-heroCarousel').owlCarousel({
         margin: 40,
         loop: true,
@@ -9,17 +9,17 @@ $(document).ready(function() {
         autoplay: true,
         autoplayTimeout: 5000,
         autoplayHoverPause: true,
-        responsive : {
+        responsive: {
             // breakpoint from 0 up
-            0 : {
+            0: {
                 items: 1
             },
             // breakpoint from 560 up
-            560 : {
+            560: {
                 items: 2
             },
             // breakpoint from 850 up
-            850 : {
+            850: {
                 items: 3
             }
         }
@@ -34,22 +34,30 @@ $(document).ready(function() {
         autoplay: true,
         autoplayTimeout: 5000,
         autoplayHoverPause: true,
-        responsive : {
+        responsive: {
             // breakpoint from 0 up
-            0 : {
+            0: {
                 items: 1
             },
             // breakpoint from 560 up
-            520 : {
+            520: {
                 items: 2
             },
             // breakpoint from 850 up
-            860 : {
+            860: {
                 items: 3
             },
             // breakpoint from 1080 up
-            1080 : {
+            1080: {
                 items: 4
+            },
+            // breakpoint from 1390 up
+            1390: {
+                items: 5
+            },
+            // breakpoint from 1600 up
+            1600: {
+                items: 6
             }
         }
     });
